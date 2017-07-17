@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why coding?"
-date:   2017-07-17 02:42:17 +0000
+date:   2017-07-16 22:42:17 -0400
 ---
 
 
