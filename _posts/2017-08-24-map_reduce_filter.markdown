@@ -5,7 +5,7 @@ date:   2017-08-24 04:54:59 +0000
 ---
 
 
-![](http://api.ning.com/files/-3i3rVffQH2bautHoYhtuyn-BhEFBMR3TNXJzACS9ATLysgH7VID6G3-DRqv65rcjsIwZ7riHJZ9rtS9XGWzIc326dpaeNvF/bor55.PNG) Let's say that we have an array of vegetables that we want to use for our sandwich. Filter would make a new array of vegetables that we do like. Map would be the chopping that happens to each vegetable. Reduce would adding all the ingrediants to one sandwich or value. However, our original array of vegetables would remain the same. Below are some examples of the copying and manipulation of arrays through map, filter, and reduce methods.
+![](http://api.ning.com/files/-3i3rVffQH2bautHoYhtuyn-BhEFBMR3TNXJzACS9ATLysgH7VID6G3-DRqv65rcjsIwZ7riHJZ9rtS9XGWzIc326dpaeNvF/bor55.PNG) Let's say that we have an array of vegetables that we want to use for our sandwich. Filter would make a new array of vegetables that we do like. Map would be the chopping that happens to each vegetable. Reduce would add all the ingredients to one sandwich or value. However, our original array of vegetables would remain the same. Below are some examples of the copying and manipulation of arrays through map, filter, and reduce methods.
 
 ```
 var numbers = [1, 2, 3, 4];
