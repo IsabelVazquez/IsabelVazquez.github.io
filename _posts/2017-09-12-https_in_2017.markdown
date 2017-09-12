@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "HTTPS in 2017"
+date:   2017-09-12 00:02:46 +0000
+---
+
+
+![](https://cdn-images-1.medium.com/max/1600/1*yqx7iIEutVlW99VYMlGNHA.gif)
+
+*Checking certificates through Google Chrome | GIF found on [eero blog](https://blog.eero.com/what-does-wpa-mean-and-other-wifi-security-terms-to-know/)*
+
+Something that I have seen with web development is a huge announcement of having HTTPS over HTTP. It’s not uncommon to be deploying HTTPS in 2017, but it is a standard that extends beyond payment transactions and forms. The rise of HTTPS can be attributed to web servers alerting users whether sites are secure and Google implementing a small SEO boost to HTTPS sites in 2014. Secure browsing is now expected.
+
+HTTPS is HTTP plus SSL or Secure Sockets Layer which enables an encrypted connection between the web browser/client and server. The browser and client converse back and forth, sending messages and certificates. This SSL handshake is possible through asymmetric cryptography, having one public key for encryption and one private key for decryption. It’s important as the browser and server agree to a shared secret key through the handshake. The shared secret key uses symmetric cryptography, having one key to encrypt and decrypt data, where information is securely sent.
+
+![](https://www.awardspace.com/wp-content/uploads/2016/08/img_ssl_how_it_works_1.jpg)
+
+*Read more about the handshake components [here](https://robertheaton.com/2014/03/27/how-does-https-actually-work/) | Image found on [Awardspace.com](https://www.awardspace.com/web-hosting/ssl-certificates/)*
+
+This handshake requires a SSL certificate which verifies that a public key belongs to a specific server. Certificates can be bought or are freely available through [Let’s Encrypt](https://letsencrypt.org/docs/faq/), a Certificate Authority (CA) which checks if applicants and sites are real. If the browser trusts the server’s SSL certificate, a shared secret key is created by the browser for the server to start the encrypted session. 
