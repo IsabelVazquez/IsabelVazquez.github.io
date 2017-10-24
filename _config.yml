@@ -9,7 +9,7 @@ twitter_username:
 github_username:  IsabelVazquez
 learn_profile: IsabelVazquez
 email_username: 12ivazquez@gmail.com
-google_tracking_id: UA-108478784-1
+google_analytics: UA-108478784-1
 
 # Build settings
 markdown: kramdown
