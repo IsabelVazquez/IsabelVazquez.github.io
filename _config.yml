@@ -5,7 +5,6 @@ email: 12ivazquez@gmail.com
 copyright_name: IsabelVazquez
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings For The World To See (Maybe)
-baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
 github_username:  IsabelVazquez
 learn_profile: IsabelVazquez
