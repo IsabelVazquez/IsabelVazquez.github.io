@@ -6,10 +6,11 @@ copyright_name: IsabelVazquez
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings For The World To See (Maybe)
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username:
 github_username:  IsabelVazquez
 learn_profile: IsabelVazquez
 email_username: 12ivazquez@gmail.com
+google_tracking_id: UA-108478784-1
 
 # Build settings
 markdown: kramdown
