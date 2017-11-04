@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "JQuery/Rails Portfolio Project"
-date:       2017-11-02 20:22:03 +0000
+date:       2017-11-02 16:22:04 -0400
 permalink:  jquery_rails_portfolio_project
 ---
 
 
-When starting this part of the [Rails project](https://github.com/IsabelVazquez/recipe-app), I appended the HTML from the partials or forms to the show and index pages. While this utilizes JQuery, it falls short of creating stable data in the JSON format. APIs utilize JSON format instead HTML because of the access and logic with hashes. By accessing hashes of recipe and item data, I was then able to create Javascript Model Objects. 
+When starting this part of the [Rails project](https://github.com/IsabelVazquez/recipe-app), I appended the HTML from the partials or forms to the show and index pages. While this utilizes JQuery, it falls short of creating stable data in the JSON format. APIs utilize JSON format instead of HTML because of the access and logic with hashes. By accessing hashes of recipe and item data, I was then able to create Javascript Model Objects. 
 ```
 // JS Model Object
 function Item(item) {
