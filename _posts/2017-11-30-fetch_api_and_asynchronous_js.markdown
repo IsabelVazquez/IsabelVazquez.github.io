@@ -27,7 +27,7 @@ callApi = () => {
       })
       .then(data => console.log('c',data))
       console.log('d')
-			console.log('e')
+      console.log('e')
   }
 	
 render() {
@@ -44,7 +44,7 @@ which results to this when clicked:
 
 `console.log('d')` and `console.log('e')` fire off before the fetch() request finishes. Synchronous code would have each line of code run in order as soon as the previous line executed. However, asynchronous code, the fetch API in this case, does not pause data. Instead, the chained .then() functions run async actions in sequence once the server responds. 
 
-The Fetch API takes in a path with optional settings, `const request`, and returns a promise,* an object representing the eventual completion or failure of an asynchronous operation. * The response from this promise is utilized by .then() and .catch() for error handling.
+The Fetch API takes in a path with optional settings, `const request`, and returns a promise, *an object representing the eventual completion or failure of an asynchronous operation.* The response from this promise is utilized by .then() and .catch() for error handling.
 
 Overall, I would definitely recommend extra reading for understanding asynchronous code as it's crucial with JS requests.
 
