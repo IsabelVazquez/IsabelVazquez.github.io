@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Fetch API and Asynchronous JS "
-date:       2017-11-30 23:26:56 +0000
+date:       2017-11-30 18:26:57 -0500
 permalink:  fetch_api_and_asynchronous_js
 ---
 
