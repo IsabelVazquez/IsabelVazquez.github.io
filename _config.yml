@@ -1,7 +1,7 @@
 # Site settings
 title: Coding Plus Tea
 header-img: img/home-bg.png
-email: 12ivazquez@gmail.com
+baseurl: ""
 copyright_name: IsabelVazquez
 description: > # this means to ignore newlines until "baseurl:"
 twitter_username:
