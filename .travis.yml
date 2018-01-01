@@ -1,0 +1,14 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.3.3
+
+before_script: chmod ugo+x scripts/cibuild
+script: "./scripts/cibuild"
+
+branches:
+  only:
+    - master
+
+git:
+  depth: 10
