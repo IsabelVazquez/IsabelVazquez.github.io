@@ -1,12 +1,12 @@
 # Site settings
 title: Coding Plus Tea
-header-img: img/home-bg.png
+header-img: img/home-bg.jpg
 baseurl: ""
-copyright_name: IsabelVazquez
+copyright_name: Isabel Vazquez
 description: > # this means to ignore newlines until "baseurl:"
-twitter_username:
-github_username:  IsabelVazquez
-learn_profile: IsabelVazquez
+twitter_username: isabelvazquez__
+github_username: IsabelVazquez
+learn_profile:
 google_analytics: UA-108478784-1
 
 # Build settings

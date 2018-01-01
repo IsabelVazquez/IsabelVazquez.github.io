@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-header-img: "img/about-bg.png"
+header-img: "img/about-bg.jpeg"
 ---
 
 Hi! I'm a developer whose tech journey began in 2017. This blog is my writing space to share my learnings and process. Enjoy!
