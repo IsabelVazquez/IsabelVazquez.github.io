@@ -1,3 +1,7 @@
+# [Isabel Vazquez](http://isabelcoder.com)
+
+[![Build Status](https://travis-ci.org/IsabelVazquez/IsabelVazquez.github.io.svg?branch=master)](https://travis-ci.org/IsabelVazquez/IsabelVazquez.github.io)
+
 #Clean Blog by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
