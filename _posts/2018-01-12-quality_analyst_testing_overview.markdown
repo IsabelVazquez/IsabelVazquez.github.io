@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Quality Analyst/Testing Overview"
-date:       2018-01-12 18:48:48 +0000
+date:       2018-01-12 13:48:48 -0500
 permalink:  quality_analyst_testing_overview
 ---
 
 
-When coding, it’s important to be aware of what everyone does and a big part of the software development life cycle is testing. This is going to a broad overview of different types of testing and tools available. 
+When coding, it’s important to be aware of what everyone does and a big part of the software development life cycle is testing. This is a broad overview of different types of testing and tools available. 
 
 **Testing Pyramid**
 ![Ideally, testing will mostly be concentrated in low cost unit tests, followed by integration tests and very few functional tests. ](https://i2.wp.com/saeedgatson.com/wp-content/uploads/2015/10/idealautomatedtestingpyramid.png )
