@@ -1,6 +1,20 @@
 ---
-layout: portfolio
+layout: default
 ---
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <hr class="small">
+                    <span class="subheading">{% if page.title != "About" %}{{ site.description }}{% endif %}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <main>
   <div id="main" role="main">
@@ -16,13 +30,13 @@ layout: portfolio
             December 2017
           </p>
           <p>
-            An Imgur browsing site that includes user pages of favorite images. This site utilized the Imgur API,
-            Ruby on Rails, and the Faraday gem on the back-end. Client-side routing used reactrouter and RESTful principles.
+            An Imgur browsing site that includes user pages of favorite images. This site utilizes the Imgur API,
+            Ruby on Rails, and the Faraday gem on the back-end. Client-side routing uses reactrouter and RESTful principles.
             Redux Thunk middleware also responds to and modifies state changes.
           </p>
 
           <div class="project-links">
-            <h4>Find Out More:</h4>
+            <h3><strong>Find Out More:</strong></h3>
               <ul>
                   <li><a href="http://isabelcoder.com/react_redux_app">Article</a></li>
                   <li><a href="https://github.com/IsabelVazquez/React-Redux">GitHub</a></li>
@@ -47,11 +61,11 @@ layout: portfolio
             A recipe sharing community catering to various cuisines and time constraints. This CMS leverages
             jQuery and JavaScript for AJAX functionality. The development build utilizes the SQLite database schema
             and configured ActiveRecord associations. The production build on Heroku relies on PostgreSQL.
-            OmniAuth for OAuth authentication with Facebook can currently be setup on the development build.
+            OmniAuth for OAuth authentication with Facebook can be configured on the development build.
           </p>
 
           <div class="project-links">
-            <h4>Find Out More:</h4>
+            <h3><strong>Find Out More:</strong></h3>
               <ul>
                   <li><a href="http://isabelcoder.com/jquery_rails_portfolio_project">Article (Rails & JavaScript Version)</a></li>
                   <li><a href="http://isabelcoder.com/rails_project">Article (Rails Only Version)</a></li>
@@ -79,7 +93,7 @@ layout: portfolio
           </p>
 
           <div class="project-links">
-            <h4>Find Out More:</h4>
+            <h3><strong>Find Out More:</strong></h3>
               <ul>
                   <li><a href="http://isabelcoder.com/sinatra_portfolio_project">Article</a></li>
                   <li><a href="https://github.com/IsabelVazquez/sinatra-writing-app">GitHub</a></li>
@@ -104,7 +118,7 @@ layout: portfolio
           </p>
 
           <div class="project-links">
-            <h4>Find Out More:</h4>
+            <h3><strong>Find Out More:</strong></h3>
               <ul>
                   <li><a href="http://isabelcoder.com/">GitHub</a></li>
               </ul>

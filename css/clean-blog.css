@@ -4,6 +4,7 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+/* TODO: @media queries for portfolio */
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -17,7 +18,9 @@ p a {
   text-decoration: underline;
 }
 h1,
-h2,
+h2 {
+  font-size: 1.5em;
+}
 h3,
 h4,
 h5,
@@ -31,6 +34,10 @@ h6.powered_by {
 }
 a {
   color: #404040;
+}
+a:link,
+a:visited {
+  color: #006b99;
 }
 a:hover,
 a:focus {
@@ -67,6 +74,22 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+.portfolio {
+  margin: 1em 0em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+.project {
+  width: 100%;
+  flex-grow: 1;
+  margin: 0.5em;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
