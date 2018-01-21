@@ -20,7 +20,7 @@ An immediate, bi-directional connection is best for the following applications:
 * online chat rooms
 * real-time apps with a lot of data and many users 
 
-Once the connection is established, the [WebSockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) executes the these four different events:
+Once the connection is established, the [WebSockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) executes these four different events:
 * open - occurs when connection exist
 * message - occurs when data is received
 * error - self-explanatory
@@ -30,6 +30,6 @@ and the following methods:
 * send - used to send data
 * close - used to close the connection
 
-If you’re more curious over other different interactions between clients and servers, read [this StackOverflow answer](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet) to get started.
+If you’re more curious over other interactions between clients and servers, read [this StackOverflow answer](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet) to get started.
 
 Check out [Socket.io](https://socket.io/), a popular WebSocket library.
