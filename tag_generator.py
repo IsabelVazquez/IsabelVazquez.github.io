@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-# TODO: edit script to generate files
 '''
 tag_generator.py
 Copyright 2017 Long Qian
@@ -15,11 +14,12 @@ import os
 post_dir = '_posts/'
 tag_dir = 'tag/'
 
-filenames = glob.glob(post_dir + '.markdown')
+filenames = glob.glob(post_dir + '*.markdown')
+print(filenames.__len__())
 
 total_tags = []
 for filename in filenames:
-    f = open(filename, 'r', encoding="utf8")
+    f = open(filename, 'r')
     crawl = False
     for line in f:
         if crawl:
@@ -37,7 +37,7 @@ for filename in filenames:
     f.close()
 total_tags = set(total_tags)
 
-old_tags = glob.glob(tag_dir + '.markdown')
+old_tags = glob.glob(tag_dir + '*.markdown')
 for tag in old_tags:
     os.remove(tag)
 

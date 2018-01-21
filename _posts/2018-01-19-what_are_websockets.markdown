@@ -3,10 +3,11 @@ layout: post
 title:      "What are WebSockets?"
 date:       2018-01-19 23:11:11 -0500
 permalink:  what_are_websockets
+tags: websockets
 ---
 
 
-An interview trend I’ve come across in is being asked about WebSockets. WebSockets is a technology that allows clients/browsers to communicate with servers and vice versa persistently. This differentiates from the traditional paradigm of clients sending requests and servers fulfilling those requests. 
+An interview trend I’ve come across in is being asked about WebSockets. WebSockets is a technology that allows clients/browsers to communicate with servers and vice versa persistently. This differentiates from the traditional paradigm of clients sending requests and servers fulfilling those requests.
 
 ![](http://apress.jensimmons.com/v5/pro-html5-programming/images/ch7/fig7-2.png)
 
@@ -16,9 +17,9 @@ As with other [connections](http://isabelcoder.com/2017/09/12/https_in_2017/), a
 
 An immediate, bi-directional connection is best for the following applications:
 * interactive games
-* collaborative source code editors 
+* collaborative source code editors
 * online chat rooms
-* real-time apps with a lot of data and many users 
+* real-time apps with a lot of data and many users
 
 Once the connection is established, the [WebSockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) executes these four different events:
 * open - occurs when connection exist

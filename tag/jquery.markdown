@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: testing"
-tag: testing
+title: "Tag: jquery"
+tag: jquery
 robots: noindex
 ---
