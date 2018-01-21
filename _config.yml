@@ -3,7 +3,7 @@ title: Coding Plus Tea
 header-img: img/computer-bg.png
 baseurl: ""
 copyright_name: Isabel Vazquez
-description: "Dallas developer.<br>Personal tech blog."
+description: > # this means to ignore newlines until "baseurl:"
 twitter_username: isabelvazquez__
 github_username: IsabelVazquez
 google_analytics: "UA-108478784-1"
