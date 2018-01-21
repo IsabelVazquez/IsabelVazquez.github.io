@@ -24,6 +24,15 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <span>[
+          {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+              <!-- TODO: edit script to generate files  -->
+              <!-- <a href="/tag/{{ tag_name }}"> -->
+                <code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;
+              <!-- </a> -->
+          {% endfor %}
+        ]</span>
 
 				{{ content }}
 

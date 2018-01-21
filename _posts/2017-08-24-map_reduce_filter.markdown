@@ -2,6 +2,7 @@
 layout: post
 title:  "Map, Reduce, Filter?"
 date:   2017-08-24 04:54:59 +0000
+tags: javascript arrays
 ---
 
 
@@ -18,7 +19,7 @@ var total = numbers.reduce((acc, cur) => acc + cur, 0); // 10
 
 ```
 
-To expand more on the reduce method above, the acc accumulates all of the values added in our function and with the initial value of 0. Cur is then numbers[0] or 1. However, if no initial value is given, acc is the first value, numbers[0], and val is the next value. With this in mind, reduce can change immutable data structures from an array to an object, **both different variables**! 
+To expand more on the reduce method above, the acc accumulates all of the values added in our function and with the initial value of 0. Cur is then numbers[0] or 1. However, if no initial value is given, acc is the first value, numbers[0], and val is the next value. With this in mind, reduce can change immutable data structures from an array to an object, **both different variables**!
 
 ```
 var indexedNumbers = numbers.reduce(function(acc, val, index) {
@@ -27,8 +28,8 @@ var indexedNumbers = numbers.reduce(function(acc, val, index) {
 }, {}); // { 0: 1, 1: 2, 2: 3, 3: 4 }
 ```
 
-In the reduce example above, the initial value of acc is {} and we insert key-value pairings into this empty hash. 
+In the reduce example above, the initial value of acc is {} and we insert key-value pairings into this empty hash.
 
-The most important thing from this post is that all of these methods leave the original array *numbers* unaltered. 
+The most important thing from this post is that all of these methods leave the original array *numbers* unaltered.
 
-Thanks to this [talk](https://www.youtube.com/watch?v=e-5obm1G_FY) for the sandwich metaphor and [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) for helping out with this post. 
+Thanks to this [talk](https://www.youtube.com/watch?v=e-5obm1G_FY) for the sandwich metaphor and [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) for helping out with this post.

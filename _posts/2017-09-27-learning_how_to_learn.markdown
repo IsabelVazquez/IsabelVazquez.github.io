@@ -2,6 +2,7 @@
 layout: post
 title:  "Learning How To Learn"
 date:   2017-09-27 18:23:14 +0000
+tags: non-technical learning resources
 ---
 
 
@@ -10,9 +11,9 @@ Having reached a personal coding milestone, I wanted to write about a non-techni
 *Instead of coding, I do the following:*
 * **Watch codealongs and live lectures** Through these lectures, I am introduced to topics before diving into the actual readings and labs. This tended to reinforce and soften the material while connecting old lessons to new ones.
 
-* **Re-read the lessons and/or documentation** After struggling with a lab or test, I read documentation without the pressure to pass a lab or test. Rethinking a problem without my current code in front of me unclogged some thinking. 
+* **Re-read the lessons and/or documentation** After struggling with a lab or test, I read documentation without the pressure to pass a lab or test. Rethinking a problem without my current code in front of me unclogged some thinking.
 
 *While coding, I do the following more and more:*
-* **Focus on having more tests pass than completing a lab or project **As I entered completely new material, this mindset on passing individual tests was key. 
+* **Focus on having more tests pass than completing a lab or project **As I entered completely new material, this mindset on passing individual tests was key.
 
-Out of the three, videos and lectures reinforced my learning the most when I didn't code or coded very little. This is my learning style that resulted from going through Learn.co. It's always a work-in-progress, but I hope that these tips encourage others to find out how they learn. 
+Out of the three, videos and lectures reinforced my learning the most when I didn't code or coded very little. This is my learning style that resulted from going through Learn.co. It's always a work-in-progress, but I hope that these tips encourage others to find out how they learn.

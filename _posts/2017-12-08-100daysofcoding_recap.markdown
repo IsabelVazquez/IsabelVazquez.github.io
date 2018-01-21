@@ -3,16 +3,17 @@ layout: post
 title:      "#100DaysOfCoding Recap"
 date:       2017-12-08 19:54:48 +0000
 permalink:  100daysofcoding_recap
+tags: non-technical learning resources
 ---
 
 
-Although I have been coding for longer than 100 days now, I wanted to recap my first #100DaysOfCoding from earlier this year. I've **bolded** resources that I would highly recommend to anyone wanting to learn how to code, become a developer, or try something new. Stack Overflow and YouTube tutorials were also key in completing projects and tying smaller lessons together. 
+Although I have been coding for longer than 100 days now, I wanted to recap my first #100DaysOfCoding from earlier this year. I've **bolded** resources that I would highly recommend to anyone wanting to learn how to code, become a developer, or try something new. Stack Overflow and YouTube tutorials were also key in completing projects and tying smaller lessons together.
 
 * completed [Codecademy’s Learn JS](https://www.codecademy.com/learn/learn-javascript) track and started various [Code School](https://www.codeschool.com/) paths  
 
 * finished **[Hack Reactor Basic Prep](http://prep.hackreactor.com/p/hack-reactor-prep)** - *This really forced me to read and become comfortable with [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript) while learning the basics of JS.*
 
-* did a live coding interview 
+* did a live coding interview
 
 * completed 4 projects (1 data visualization + 3 back end) with [**FreeCodeCamp**](https://www.freecodecamp.org/) - *After completing the tutorials above, I dived into small projects before enrolling at Flatiron School. I didn't know about setting up MVC patterns but coded along with video tutorials that I watched over and over to understand. GitHub, Heroku, and Git became more important to me at this point.*
 

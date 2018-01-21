@@ -3,6 +3,7 @@ layout: post
 title:      "Quality Analyst/Testing Overview"
 date:       2018-01-12 13:48:48 -0500
 permalink:  quality_analyst_testing_overview
+tags: testing
 ---
 
 

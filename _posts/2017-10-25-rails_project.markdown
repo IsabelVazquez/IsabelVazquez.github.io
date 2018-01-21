@@ -3,6 +3,7 @@ layout: post
 title:      "Rails Project"
 date:       2017-10-26 01:01:05 +0000
 permalink:  rails_project
+tags: ruby-on-rails
 ---
 
 

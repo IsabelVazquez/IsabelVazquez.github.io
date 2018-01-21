@@ -2,6 +2,7 @@
 layout: post
 title:  "Why coding?"
 date:   2017-07-16 22:42:17 -0400
+tags: non-technical
 ---
 
 

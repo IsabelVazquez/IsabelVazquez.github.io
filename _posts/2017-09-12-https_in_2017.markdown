@@ -2,6 +2,7 @@
 layout: post
 title:  "HTTPS in 2017"
 date:   2017-09-12 00:02:46 +0000
+tags: https
 ---
 
 
@@ -17,4 +18,4 @@ HTTPS is HTTP plus SSL or Secure Sockets Layer which enables an encrypted connec
 
 *Read more about the handshake components [here](https://robertheaton.com/2014/03/27/how-does-https-actually-work/) | Image found on [Awardspace.com](https://www.awardspace.com/web-hosting/ssl-certificates/)*
 
-This handshake requires a SSL certificate which verifies that a public key belongs to a specific server. Certificates can be bought or are freely available through [Let’s Encrypt](https://letsencrypt.org/docs/faq/), a Certificate Authority (CA) which checks if applicants and sites are real. If the browser trusts the server’s SSL certificate, a shared secret key is created by the browser for the server to start the encrypted session. 
+This handshake requires a SSL certificate which verifies that a public key belongs to a specific server. Certificates can be bought or are freely available through [Let’s Encrypt](https://letsencrypt.org/docs/faq/), a Certificate Authority (CA) which checks if applicants and sites are real. If the browser trusts the server’s SSL certificate, a shared secret key is created by the browser for the server to start the encrypted session.
