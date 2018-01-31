@@ -24,7 +24,7 @@ Continuous integration is the immediate and daily integration of code into one s
 
 On my personal site, I am the sole developer and do not have tests at the moment or any formal check-in process. But I enjoyed bringing Travis CI to my repository because I
 * got a brief introduction to CI practices
-* became acquainted with writing scripts, thanks to this documentation on Jekyll
+* became acquainted with writing scripts, thanks to [this documentation on Jekyll](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
 * was introduced to checking the DNS, site build, and HTML files automatically
 
 Cheers to good developer practices and happy coding!
