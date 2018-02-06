@@ -1,0 +1,61 @@
+---
+layout: post
+title:      "Intro to Docker"
+date:       2018-02-06 14:57:11 -0500
+permalink:  docker
+tags: docker containers
+---
+![](https://newrelic.com/assets/partners/docker/vector_docker-whale.svg)
+
+Having heard a lot of positive things about Docker, I decided to write this post to explain what it is, why it matters, and how to start implementing it.
+
+**What is Docker?**
+
+Docker has become synonymous with containers but is actually various technologies, e.g. Swarm. Docker containers wrap software with everything needed to run it that can be installed on a server: code, runtime, system tools, system libraries, settings, etc.
+
+![](https://www.docker.com/sites/default/files/Package%20software.png)
+
+Unlike VMs, containers share the host system's kernel with other containers.
+
+
+**Why does Docker matter?**
+
+Docker lets:
+* software run anywhere, anytime the exact same way, regardless of its environment
+* code run faster and use less RAM
+* you “sandbox” projects
+
+
+**How to implement?**
+
+Containers are typically constructed from a container image that defines all resources and libraries to run the app. This is called a [Dockerfile](https://docs.docker.com/get-started/part2/#introduction). The Dockerfile is built by running `docker build -t [repo name] .`
+```
+# Use an official Python runtime as a parent image
+FROM python:2.7-slim
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the current directory contents into the container at /app
+ADD . /app
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+# Make port 80 available to the world outside this container
+EXPOSE 80
+
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]
+```
+
+Next, starting the Docker container involves the following: `docker run -p 4000:80 [repo name]`. After pushing the Docker image to a repo, a `docker-compose.yml` file defines production behavior. Similar to pushing a GitHub repo, [Docker images are published](https://hub.docker.com/) which lets the app run on any machine with this command: `docker run -p 4000:80 username/repository:tag`. To start, reading and writing Dockerfiles and Docker Compose YAML files is highly recommended.
+
+
+**Resources**
+
+* [Play with Docker](https://labs.play-with-docker.com/)
+* [Docker for Developers](http://training.play-with-docker.com/dev-landing/)
