@@ -1,0 +1,24 @@
+---
+layout: post
+title:      "Adventures in Angular"
+date:       2018-02-28 19:50:11 -0500
+permalink:  angular
+tags: angular testing
+---
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png)
+
+After reading about Angular this weekend, I decided to give a broad overview over what I found.
+
+## Structure
+
+Coming from a Rails and React background, I found Angular to have more structure and rules than Rails as it solves for greater problems thanks to Angular's MVC pattern. However, its built-in directives and service objects (e.g. `$resource`, `$scope`) are similar to what is done within a Rails web app. Angular controllers are thin in code with services having the business logic. Similar to how Ruby is placed in views `<% %>`, expressions `{ }` also allow models to be connected and manipulated in the view.
+
+## Testing
+
+Karma, Jasmine, and Protractor seem to be the main players for automatic testing players with Angular.
+
+## Advantages
+
+Given Angular's structure and built-in functions, developers do not have to worry about browser compatibility, unbinding events, and finding other architecture or libraries to have the full MVC pattern. I also liked how dependencies can be passed off as parameters in any order, thanks to `$inject` and `$provide`. Angular's two-way data binding is advantageous given that once a view is updated, the new value will be compared to the old value thanks to the `$digest` loop. However, this can lead to performance lagging and difficult debugging.
+
+I'm excited to see what else Angular provides given its active community and use in software development.
