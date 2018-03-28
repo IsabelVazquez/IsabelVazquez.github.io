@@ -5,6 +5,8 @@ date:       2018-03-28 18:34:11 +0000
 permalink:  beyond_bootcamps
 tags: resources
 ---
+![](http://2016.pyconuk.org/static/img/logos/pluralsight.png)
+![](https://cdn-images-1.medium.com/max/1080/1*vxoOv0yg2SioItCkkbZhCg@2x.png)
 After finishing a coding bootcamp, I found myself a bit overwhelmed with the numerous resources and time now available to dive into other topics beyond web development. While there are many blog posts about [starting to code](100daysofcoding_recap), what about next steps? To me, there are the following broad subject areas that likely overlap:
 * [Mobile Development](mobile_development) (iOS, Android, Hybrid)
 * Cloud Development (AWS, Google Cloud Platform, Microsoft Azure)
