@@ -20,7 +20,7 @@ title "Building site"
 bundle exec jekyll build --config _config.yml
 
 title "Checking HTML files"
-bundle exec htmlproofer --assume-extension --external_only --only-4xx --http-status-ignore "403,429" ./_site 
+bundle exec htmlproofer --assume-extension --external_only --only-4xx --http-status-ignore "403,429" ./_site
 
 title "Cleaning up..."
 rm -rf _site
