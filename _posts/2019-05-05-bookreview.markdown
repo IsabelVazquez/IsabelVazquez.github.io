@@ -21,6 +21,9 @@ The book demonstrated four types of work throughout the story with unplanned wor
 - Unplanned Work
 
 The book then gradually introduces three ways to foster consistent and safe intervals of work, client-development feedback, and experimentation. The importance of tests during deployment as *only quality code* should move forward. Visible production telemetry creates trust and feedback loops where happier developers, operations, and clients reside.
+- Flow (fasten delivery of work)
+- Feedback
+- Continual Learning and Experimentation
 
 ![](http://blog.backupify.com/wp-content/uploads/2014/02/FiveStar_BlogImage.jpg)
 Overall, I highly recommend this book, where some situations seem all to familiar, to glean insights into how management matters in software development.
