@@ -13,7 +13,7 @@ An interview trend I’ve come across in is being asked about WebSockets. WebSoc
 
 *Image from [apress.jensimmons.com](http://apress.jensimmons.com/)*
 
-As with other [connections](http://isabelcoder.com/2017/09/12/https_in_2017/), a handshake is initiated by the client with a constructor utilizing `ws://` or `wss://` protocol. Once the handshake is complete, data (the payload) is sent without latency costs like traditional HTTP requests. This is because a single HTTP connection is needed and reused for a WebSocket connection. Supported by the browser, pings and pongs are also sent between the server and client to check if the connection is still open.
+As with other [connections](2017/09/11/https_in_2017), a handshake is initiated by the client with a constructor utilizing `ws://` or `wss://` protocol. Once the handshake is complete, data (the payload) is sent without latency costs like traditional HTTP requests. This is because a single HTTP connection is needed and reused for a WebSocket connection. Supported by the browser, pings and pongs are also sent between the server and client to check if the connection is still open.
 
 An immediate, bi-directional connection is best for the following applications:
 * interactive games
