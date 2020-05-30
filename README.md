@@ -1,4 +1,4 @@
-# [Isabel Vazquez](http://isabelcoder.com) fd
+# [Isabel Vazquez](http://isabelcoder.com)
 
 #Clean Blog by Start Bootstrap - Jekyll Version
 
