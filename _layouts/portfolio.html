@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -18,16 +18,20 @@ layout: default
 
 <main>
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <div class="project" id="material_ui">
+      <p style="display:flex;justify-content:center">
+        <img src="https://github.com/heroku/favicon/raw/master/favicon.iconset/icon_32x32.png" alt="Heroku Logo" style="display:inline;margin-right:.25em"> hosted - demo links load slowly
+      </p>
 
-      <div class="project-description">
-        <h2>Material UI Examples</h2>
+      <div class="project" id="material_ui">
+
+        <div class="project-description">
+        <h2>Material-UI Examples</h2>
           <p>
             <strong>Released: </strong>
             July 2019
           </p>
           <p>
-            A site with a login and tasks page created with Material UI. The focus was on recreating a design
+            A site with a login and tasks page created with Material-UI. The focus was on recreating a design
             in place of a functioning website. For display purposes only.
           </p>
 
@@ -97,9 +101,7 @@ layout: default
           </div>
         </div>
       </div>
-      </div>
 
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <div class="project" id="sinatra_app">
 
         <div class="project-description">
@@ -125,27 +127,5 @@ layout: default
 
         </div>
       </div>
-
-    <div class="project" id="personal_app">
-
-        <div class="project-description">
-          <h2>isabelcoder.com</h2>
-          <p>
-            <strong>Released: </strong>
-            July 2017
-          </p>
-          <p> Personal website built on Jekyll, hosted on GitHub Pages, and developed with Atom.
-          </p>
-
-          <div class="project-links">
-            <h3><strong>Find Out More:</strong></h3>
-              <ul>
-                  <li><a href="http://isabelcoder.com/">GitHub</a></li>
-              </ul>
-          </div>
-        </div>
-    </div>
-
-    </div>
   </div>
 </main>
