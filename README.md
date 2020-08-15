@@ -1,4 +1,4 @@
-# [Isabel Vazquez](http://isabelcoder.com)
+# [Isabel Vazquez](https://isabelvazquez.github.io/)
 
 #Clean Blog by Start Bootstrap - Jekyll Version
 

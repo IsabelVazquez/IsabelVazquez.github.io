@@ -4,7 +4,6 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-/* TODO: @media queries for portfolio */
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -96,6 +95,13 @@ hr.small {
 }
 .project-description h2{
   color: #404040;
+}
+/* Mobile fixed hamburger menu */
+@media only screen and (max-width: 768px) {
+  .navbar-custom {
+    position: fixed;
+    background-color: #9AD7C7;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
