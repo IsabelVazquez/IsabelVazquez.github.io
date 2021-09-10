@@ -24,7 +24,6 @@ h4,
 h5,
 h6,
 h6.powered_by {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-top: 0px;
@@ -50,6 +49,9 @@ blockquote {
 }
 code {
   color: #07818D;
+}
+hr {
+  border-top: 1px solid #3c763d;
 }
 hr.small {
   max-width: 100px;
@@ -444,7 +446,9 @@ body {
     position: relative;
     top: 3px;
 }
-
+.text-muted {
+    color: #00738b;
+}
 @font-face {
     font-family: 'glyphterregular';
     src: url('../fonts/glyphter-webfont.eot');
