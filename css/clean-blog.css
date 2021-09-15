@@ -10,6 +10,12 @@ body {
   color: #307370;
   background-color: #dff0d8;
 }
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Lora', 'Times New Roman', serif !important;
+}
 p {
   line-height: 1.5;
   margin: 15px 0;
@@ -58,6 +64,9 @@ hr.small {
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
+}
+.highlight > code {
+	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace !important;
 }
 .navbar-custom {
   background: white;
