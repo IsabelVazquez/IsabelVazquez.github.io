@@ -50,7 +50,7 @@ a img:focus {
   cursor: zoom-in;
 }
 blockquote {
-  color: #808080;
+  color: #544949;
   font-style: italic;
 }
 code {
@@ -126,7 +126,7 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #191919;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -424,7 +424,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #808080;
+  color: #544949;
   background-color: #404040;
   cursor: not-allowed;
 }
