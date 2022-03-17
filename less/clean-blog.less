@@ -153,7 +153,14 @@ hr.small {
     }
   }
 }
-
+.site-heading {
+  max-height: 300px;
+  padding: 100px 0 50px;
+  color: white;
+  @media only screen and (min-width: 768px) {
+    padding: 100px 0;
+  }
+}
 // Header
 .intro-header {
   background: no-repeat center center;
@@ -162,14 +169,6 @@ hr.small {
   .background-cover;
   // NOTE: Background images are set within the HTML using inline CSS!
   margin-bottom: 50px;
-  .site-heading {
-    max-height: 300px;
-    padding: 100px 0 50px;
-    color: white;
-    @media only screen and (min-width: 768px) {
-      padding: 100px 0;
-    }
-  }
   .post-heading,
   .page-heading {
     padding: 100px 0 50px;
