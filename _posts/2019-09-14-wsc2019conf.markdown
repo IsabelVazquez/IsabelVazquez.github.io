@@ -1,17 +1,19 @@
 ---
 layout: post
-title:      "Write/Speak/Code 2019 Conference"
-date:       2019-08-29 09:10:11 +0000
-permalink:  wsc2019conf
+title: "Write/Speak/Code 2019 Conference"
+date: 2019-08-29 09:10:11 +0000
+permalink: wsc2019conf
 tags: conference learning
 ---
-![Illustration of a laptop by Maia Boakye](https://www.writespeakcode.com/static/ec9c752d2450c2ec36dee51b524b23a7/3e65a/2019-laptop.png)
+
+![Illustration of San Francisco by Meech Boakye](https://www.writespeakcode.com/static/e36206e4b0c4cc158aed54b92ddae556/7e589/2019-sf.png)
 
 **I finally went to my first tech conference, thanks to a giveaway by [Lizzie Siegle](https://twitter.com/lizziepika)!**
 
 Overall, I would highly recommend this conference to URMs (under-represented minorities) in tech. The mission statement of Write/Speak/Code resonated with me, and the conference offers childcare, scholarships, and travel stipends. If you're unable to get funding for a ticket, they also provide volunteer opportunities that offer a free ticket in exchange.
 
-*My experience:*
+_My experience:_
+
 - As my first tech conference, I didn't have any previous expectations but assumed a welcoming community given the conference's mission. The inclusive vibe of the conference made it memorable, as well as the diversity I saw. I met various designers, PMs, and non-developer attendees. The importance of uplifting different perspectives and valuing **impact over intention** was a key lesson brought up again and again by the speakers.
 
 - Infotainment is a big industry (thanks to recruiting) that provides networking and future inspired action. The reality of conferences is not to gain mastery of X, Y, or Z in a matter of days but to be inspired. That's the mindset that I'm adopting going into my next conference.
@@ -24,8 +26,6 @@ Overall, I would highly recommend this conference to URMs (under-represented min
 
 - Swag, so much swag! I loved the massive collection of stickers I gathered. #Octocat
 
-*Links:*
-- Illustrations by: [Maia Boakye](https://maiaboakye.com/)
-- [Write/Speak/Code](https://www.writespeakcode.com/)
+_Link:_
 
-![Illustration of people by Maia Boakye](https://www.writespeakcode.com/static/984324d0437d46dc17654f58011d47a7/3e65a/2019-people.png)
+- [Write/Speak/Code](https://www.writespeakcode.com/)
